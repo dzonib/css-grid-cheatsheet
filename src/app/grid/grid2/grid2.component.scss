@@ -1,0 +1,9 @@
+.container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 400px 200px;
+  grid-auto-flow: column;
+  // put next item on next column. Default is on next row.
+  grid-auto-columns: 100px;
+  // you tell items that are auto added to be 100px
+}

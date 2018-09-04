@@ -11,12 +11,5 @@
 //  without justify center.. auto takes the rest of the space 
   
 
-.item {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  // vertical center
-  background-color: #e4b4b4;
-  border-radius: 5px;
-  min-height: 70px;
-}
+// grid-auto-rows: 500px => rows that you did not explicitly created will be 500 px
+

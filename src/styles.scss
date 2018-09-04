@@ -2,3 +2,13 @@
   box-sizing: border-box;
   background-color: antiquewhite;
 }
+
+.item {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  // vertical center
+  background-color: #e4b4b4;
+  border-radius: 5px;
+  min-height: 70px;
+}
