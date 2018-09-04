@@ -1,0 +1,22 @@
+.container {
+  display: grid;
+  grid-template-columns: 50px auto 100px 300px;
+  grid-template-rows: auto ;
+  justify-content: center;
+  // horisontal center
+  gap: 20px;
+}
+
+//  grid-template-columns: 50px auto 100px 300px;
+//  without justify center.. auto takes the rest of the space 
+  
+
+.item {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  // vertical center
+  background-color: #e4b4b4;
+  border-radius: 5px;
+  min-height: 70px;
+}
